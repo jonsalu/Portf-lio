@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px black;
+}
+
+.navbar{
+    margin-top: 40px;
+}
+
+.navbar a{
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.navbar a:hover{
+    color: rgb(102,153,204);
+}

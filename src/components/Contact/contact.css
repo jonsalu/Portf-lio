@@ -1,0 +1,57 @@
+.contact{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.contacts li{
+    list-style: none;
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px rgb(231, 231, 231);
+    transition: 0.2s;
+}
+
+.contacts li:hover{
+    color: rgb(102,153,204);
+    border: solid 2px rgb(102,153,204);
+    cursor: pointer;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-back a{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 425px){
+    .contact{
+        overflow: hidden;
+
+    }
+
+    .contacts li{
+            width: 100%; /* Para telas menores */
+            max-width: 400px; /* Define um limite */
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+}

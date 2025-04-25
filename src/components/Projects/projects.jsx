@@ -13,9 +13,9 @@ const Projects = () => {
 
             <div className="projects-cards">
                 <div className="project">
-                    <img src="/lolpage-pic.png" alt="" />
-                    <p><strong>League of Legends webpage</strong> <button><a href="" target="blank"><FaEye /> Deploy</a></button></p>
-                    <p>Webpage inspirada no jogo League of Legends. </p>
+                    <img src="/barbershop-pic.png" alt="" />
+                    <p><strong>Barbershop landing page</strong> <button><a href="https://barbershop-landing-page-pi.vercel.app" target="blank"><FaEye /> Deploy</a></button></p>
+                    <p>Landing page para uma barbearia, destacando serviços, estilo e agendamento prático, com design moderno. </p>
                 </div>
 
                 <div className="project">
@@ -26,7 +26,7 @@ const Projects = () => {
 
                 <div className="project">
                     <img src="/public/lolpage-pic.png" alt="" />
-                    <p><strong>League of Legends webpage</strong> <button><a href="" target="blank"><FaEye /> Deploy</a></button></p>
+                    <p><strong>League of Legends webpage</strong> <button><a href="https://lol-webpage-40.vercel.app" target="blank"><FaEye /> Deploy</a></button></p>
                     <p>Webpage inspirada no jogo League of Legends. </p>
                 </div>
             </div>

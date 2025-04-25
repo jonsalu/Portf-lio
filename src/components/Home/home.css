@@ -17,7 +17,7 @@
 }
 
 .first-text span{
-    color: rgb(102,153,204);
+    color: rgb(0, 45, 192);
     
 }
 
@@ -33,17 +33,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(197, 197, 197);
+    
     padding: 10px;
-    border-radius: 8px;
-    border: solid 2px rgb(197, 197, 197);
-    transition: 0.2s;
+    
+    
+    
 }
 
-.skills li:hover{
-    border: solid 2px rgb(102,153,204);
-    color: rgb(102,153,204);
-}
+
 
 @media (max-width: 425px) {
     .first-text {

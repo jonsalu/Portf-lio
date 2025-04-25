@@ -21,8 +21,8 @@
 }
 
 .contacts li:hover{
-    color: rgb(102,153,204);
-    border: solid 2px rgb(102,153,204);
+    color: rgb(0, 45, 192);
+    border: solid 2px rgb(0, 45, 192);
     cursor: pointer;
 }
 

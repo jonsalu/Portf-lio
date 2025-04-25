@@ -25,7 +25,7 @@ const Projects = () => {
                 </div>
 
                 <div className="project">
-                    <img src="/public/lolpage-pic.png" alt="" />
+                    <img src="/lolpage-pic.png" alt="" />
                     <p><strong>League of Legends webpage</strong> <button><a href="https://lol-webpage-40.vercel.app" target="blank"><FaEye /> Deploy</a></button></p>
                     <p>Webpage inspirada no jogo League of Legends. </p>
                 </div>
